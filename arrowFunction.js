@@ -9,5 +9,5 @@ const msg = ()=>
     console.log("hello")
 }
 msg()
-//
+///
 
