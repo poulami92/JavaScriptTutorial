@@ -3,10 +3,15 @@
 const user ={
     name:'John',
     age:30,
-    country:'USA'
+    country:'USA',
+    fullName : function()
+    {
+        return this.name + ' '+this.age
+    }
 }
 
 console.log(user.name)
+console.log(user.fullName())
 
 //Constructor Function
 

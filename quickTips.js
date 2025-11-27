@@ -66,8 +66,8 @@ console.log(newArrayValue)
 //String -->convert upper case,lowercase
 
 const str='Naveen Automation'
-const strUpper=str.toUpperCase(str)
-const strLower=str.toLowerCase(str)
+const strUpper=str.toUpperCase()
+const strLower=str.toLowerCase()
 console.log(strUpper)
 console.log(strLower)
 
