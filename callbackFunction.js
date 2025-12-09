@@ -14,7 +14,7 @@ function welcome()
 greet('PD',welcome)
 
 
-
+/
 //2. simple callback function with whole function passing as argument
 
 
