@@ -2,7 +2,7 @@ class Customer{
 
     age = 25
 
-    constructor(name,product)
+    constructor(name,product,age)
     {
         this.name=name,
         this.product=product

@@ -1,7 +1,6 @@
-
 async function fetchApiData()
 {
- try{
+try{
 const response= await fetch('https://in.bookmyshow.com/explore/home/bengaluru')
 if(response.status!==403)
 {
@@ -10,7 +9,7 @@ if(response.status!==403)
 //console.log(response)
 const value = await response.text()
 console.log(value)
- }
+}
  catch(error)
  {
     console.log('Error ',error.message)

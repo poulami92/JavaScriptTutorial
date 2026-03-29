@@ -16,7 +16,7 @@ function fetchUserData(userId,funcName)
     }
     else
     {
-        funcName('user not found')  //pass error msg
+      funcName('user not found')  //pass error msg
     }
 
   },3000)
