@@ -51,6 +51,6 @@ const browserInfo = (browser='chrome',...details)=>{
     console.log('other deatils:'+details)
 }
 
-browserInfo()
+//browserInfo()
 browserInfo('firefox','mozilla','headless')
 
